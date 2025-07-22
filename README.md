@@ -36,10 +36,17 @@ Install required packages:
    pip install -r requirements.txt
    ```
 2. Train and Evaluate
-To run the clustering evaluation script:
+   ```bash
+   python autoencoder-clustering-train.py
+   ```
+Based on the training results, run the clustering evaluation script:
 
+   ```bash
+   python autoencoder-clustering-test.py
+   ```
 
-
+## Contact
+For questions or improvements, feel free to open an issue or contribute to the original dataset project.
 
 
 
